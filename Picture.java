@@ -62,7 +62,6 @@ public class Picture
         sun.moveVertical(-48);
         sun.changeSize(80);
         sun.makeVisible();
-       
     }
 
     /**
@@ -90,6 +89,15 @@ public class Picture
             window.changeColor("black");
             roof.changeColor("green");
             sun.changeColor("yellow");
+        }
+    }
+    /**
+     * se mueve el sol
+     */
+    public void MoveSun()
+    {
+        {
+            sun.slowMoveVertical(60);
         }
     }
 }
